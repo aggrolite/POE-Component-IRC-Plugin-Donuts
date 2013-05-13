@@ -1,0 +1,6 @@
+/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
