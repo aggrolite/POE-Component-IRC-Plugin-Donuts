@@ -1,10 +1,10 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "IRC Plugin\nto announce when there are fresh donuts in the area!",
    "author" : [
       "Curtis Brandt <curtis@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.2, Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Milla version v1.0.2, Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -36,6 +36,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Moose" : "0",
+            "POE::Component::IRC::Plugin" : "0",
+            "WWW::KrispyKreme::Hotlight" : "0.01",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +49,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight/issues"
+      },
+      "homepage" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight.git",
+         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Curtis Brandt <curtisjbrandt@gmail.com>"
+   ]
 }
 

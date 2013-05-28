@@ -1,6 +1,7 @@
 # NAME
 
-POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight - Blah blah blah
+POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight - IRC Plugin
+to announce when there are fresh donuts in the area!
 
 # SYNOPSIS
 
@@ -8,7 +9,9 @@ POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight - Blah blah blah
 
 # DESCRIPTION
 
-POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight is
+POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight is an IRC
+plugin that announces when there are fresh Krispy Kreme donuts near
+the given location
 
 # AUTHOR
 
