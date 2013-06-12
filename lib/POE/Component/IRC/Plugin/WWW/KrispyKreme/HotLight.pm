@@ -5,7 +5,7 @@ use WWW::KrispyKreme::HotLight;
 use IRC::Utils qw(parse_user);
 use Carp::POE qw(croak);
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use POE::Component::IRC::Plugin qw( :ALL );
 
