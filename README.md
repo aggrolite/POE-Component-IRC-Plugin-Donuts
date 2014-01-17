@@ -63,7 +63,7 @@ to announce when there are fresh donuts in the area!
         )
     );
 
-The geo attribute is REQUIRED.  See [WWW::KrispyKreme::HotLight](http://search.cpan.org/perldoc?WWW::KrispyKreme::HotLight) for more info
+The geo attribute is REQUIRED.  See [WWW::KrispyKreme::HotLight](https://metacpan.org/pod/WWW::KrispyKreme::HotLight) for more info
 
 # DESCRIPTION
 
@@ -73,9 +73,9 @@ the given location
 
 # SEE ALSO
 
-[WWW::KrispyKreme::HotLight](http://search.cpan.org/perldoc?WWW::KrispyKreme::HotLight)
+[WWW::KrispyKreme::HotLight](https://metacpan.org/pod/WWW::KrispyKreme::HotLight)
 
-[POE::Component::IRC::Plugin](http://search.cpan.org/perldoc?POE::Component::IRC::Plugin)
+[POE::Component::IRC::Plugin](https://metacpan.org/pod/POE::Component::IRC::Plugin)
 
 # AUTHOR
 
