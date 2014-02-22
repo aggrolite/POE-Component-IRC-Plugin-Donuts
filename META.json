@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight",
+   "name" : "POE-Component-IRC-Plugin-Donuts",
    "no_index" : {
       "directory" : [
          "t",
@@ -51,13 +51,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight/issues"
+         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Donuts/issues"
       },
-      "homepage" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight",
+      "homepage" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Donuts",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight.git",
-         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-KrispyKreme-HotLight"
+         "url" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Donuts.git",
+         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Donuts"
       }
    },
    "version" : "0.06",

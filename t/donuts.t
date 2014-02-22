@@ -2,9 +2,9 @@ use strict;
 use warnings;
 
 use Test::More;
-use POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight;
+use POE::Component::IRC::Plugin::Donuts;
 
-my $class = 'POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight';
+my $class = 'POE::Component::IRC::Plugin::Donuts';
 
 can_ok($class,qw(new _donuts));
 

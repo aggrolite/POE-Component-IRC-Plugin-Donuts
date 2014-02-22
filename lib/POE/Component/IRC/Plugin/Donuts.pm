@@ -1,4 +1,4 @@
-package POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight;
+package POE::Component::IRC::Plugin::Donuts;
 
 use 5.008_005;
 use WWW::KrispyKreme::HotLight;
@@ -75,19 +75,19 @@ __END__
 
 =head1 NAME
 
-POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight - IRC Plugin
+POE::Component::IRC::Plugin::Donuts - IRC Plugin
 to announce when there are fresh donuts in the area!
 
 =head1 SYNOPSIS
 
-  use POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight;
+  use POE::Component::IRC::Plugin::Donuts;
 
   use strict;
   use warnings;
 
   use POE qw(
     Component::IRC
-    Component::IRC::Plugin::WWW::KrispyKreme::HotLight
+    Component::IRC::Plugin::Donuts
   );
 
   my $nick    = 'donut_bot';
@@ -116,7 +116,7 @@ to announce when there are fresh donuts in the area!
       $irc->yield(register => 'all');
 
       $irc->plugin_add(
-          Donuts => POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight->new(    #
+          Donuts => POE::Component::IRC::Plugin::Donuts->new(    #
               geo => [34.101509, -118.32691]
           )
       );
@@ -133,7 +133,7 @@ to announce when there are fresh donuts in the area!
 =head1 CONSTRUCTOR
 
   $irc->plugin_add(
-      Donuts => POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight->new(    #
+      Donuts => POE::Component::IRC::Plugin::Donuts->new(    #
           geo => [34.101509, -118.32691]
       )
   );
@@ -142,7 +142,7 @@ The geo attribute is REQUIRED.  See L<WWW::KrispyKreme::HotLight> for more info
 
 =head1 DESCRIPTION
 
-POE::Component::IRC::Plugin::WWW::KrispyKreme::HotLight is an IRC
+POE::Component::IRC::Plugin::Donuts is an IRC
 plugin that announces when there are fresh Krispy Kreme donuts near
 the given location
 
